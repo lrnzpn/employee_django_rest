@@ -32,5 +32,5 @@ urlpatterns = [
     path('schema/', schema_view),
     path('docs/', include_docs_urls(title='Employee API')),
     # path('api/', include('api.urls')),
-    path('apiv2/', include('apiV2.urls')),
+    path('api/v2/', include('apiV2.urls')),
 ]
