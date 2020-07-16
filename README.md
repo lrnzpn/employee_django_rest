@@ -11,3 +11,9 @@ python manage.py runserver 5000
 ```
 
 **Note: It is important we run it with port 5000 because that what's set in the frontend**
+
+Endpoints:
+```
+Get all employees: http://localhost:5000/api/v2/employees/
+Employee object: http://localhost:5000/api/v2/employee/:id
+```
